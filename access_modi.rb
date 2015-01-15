@@ -1,4 +1,4 @@
-class Access_mod
+class AccessMod
   def call_private
     #self.private_meth    called on object gives error
     private_meth
