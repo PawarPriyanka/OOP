@@ -2,13 +2,10 @@ require './parent.rb'
 require './module.rb'
 require './module1.rb'
 
-class Child 
+class Child
   include Superman
   include Spiderman
-  #extend Spiderman
-  #n
 end
-
 
 ch1 = Child.new
 
